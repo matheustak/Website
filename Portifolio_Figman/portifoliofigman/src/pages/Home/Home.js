@@ -11,13 +11,13 @@ import WhatsAppFlutuante from  "../../components/WhatsAppFlutuante.js";
 
 const Home = () => {
   return (
-   
+   <div className={styles.container}>
 <div className={styles.home}>
     <div className={ styles.texto}>
     <p>
     Olá pessoas,</p>
   <h1>EU SOU UM 
-        PROGRAMADOR</h1>
+        <br/>PROGRAMADOR</h1>
         <p>seja bem-vindo ao meu portifólio website</p>
 
         </div>
@@ -54,7 +54,7 @@ const Home = () => {
 
 
 
-
+</div>
 
 
 
