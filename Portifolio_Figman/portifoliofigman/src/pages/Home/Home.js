@@ -47,14 +47,17 @@ const Home = () => {
          <img className={styles.twitter} src={minhaImagem2}  alt="Segua-me no twitter"  />
         </a>
        
+       
         </div>
 
-        <WhatsAppFlutuante />
 </div>
 
 
 
+<WhatsAppFlutuante />
+
 </div>
+
 
 
 
